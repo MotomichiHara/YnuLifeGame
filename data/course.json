@@ -1,0 +1,224 @@
+{
+    "course": [
+        {
+            "name": "大学院進学",
+            "type": [3,4],"circle": null,"req": null,"mul": 0,"prob": 1,
+            "money": null,"sociability": null,"specialty": 150,"exp": null,"gexp": 15
+        },
+        {
+            "name": "教員",
+            "type": [2],"circle": null,"req": null,"mul": 0,"prob": 1,
+            "money": null,"sociability": null,"specialty": 100,"exp": null,"gexp": 10
+        },
+        {
+            "name": "公務員",
+            "type": null,"circle": null,"req": "and","mul": 1,"prob": 1,
+            "money": null,"sociability": 240,"specialty": 40,"exp": 100,"gexp": 20
+        },
+        {
+            "name": "商社",
+            "type": [0,1],"circle": null,"req": null,"mul": 0.95,"prob": 1,
+            "money": null,"sociability": 330,"specialty": null,"exp": null,"gexp": 20
+        },
+        {
+            "name": "コンサルタント",
+            "type": [0,1],"circle": null,"req": null,"mul": 0.95,"prob": 1,
+            "money": null,"sociability": 330,"specialty": null,"exp": null,"gexp": 15
+        },
+        {
+            "name": "銀行",
+            "type": [0,1],"circle": null,"req": null,"mul": 0.95,"prob": 1,
+            "money": null,"sociability": 330,"specialty": null,"exp": null,"gexp": 15
+        },
+        {
+            "name": "保険会社",
+            "type": [0,1],"circle": null,"req": null,"mul": 0.95,"prob": 1,
+            "money": null,"sociability": 250,"specialty": null,"exp": null,"gexp": 10
+        },
+        {
+            "name": "エンジニア",
+            "type": [3],"circle": [28],"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": null,"specialty": 60,"exp": null,"gexp": 15
+        },
+        {
+            "name": "建設会社",
+            "type": [3],"circle": null,"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": null,"specialty": 30,"exp": null,"gexp": 10
+        },
+        {
+            "name": "出版社",
+            "type": null,"circle": null,"req": "and","mul": 1,"prob": 1,
+            "money": null,"sociability": 300,"specialty": 50,"exp": null,"gexp": 20
+        },
+        {
+            "name": "ITコンサル",
+            "type": [3],"circle": null,"req": "and","mul": 0.8,"prob": 1,
+            "money": null,"sociability": 300,"specialty": 70,"exp": null,"gexp": 20
+        },
+        {
+            "name": "ITエンジニア",
+            "type": [3],"circle": [27],"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": null,"specialty": 70,"exp": null,"gexp": 15
+        },
+        {
+            "name": "自動車メーカー",
+            "type": [3],"circle": null,"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": null,"specialty": 70,"exp": null,"gexp": 15
+        },
+        {
+            "name": "鉄道会社",
+            "type": [3,4],"circle": null,"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": 330,"specialty": 60,"exp": null,"gexp": 10
+        },
+        {
+            "name": "食品メーカー",
+            "type": [3],"circle": null,"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": 330,"specialty": 50,"exp": null,"gexp": 10
+        },
+        {
+            "name": "医薬品メーカー",
+            "type": [3],"circle": null,"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": 330,"specialty": 70,"exp": null,"gexp": 10
+        },
+        {
+            "name": "化学メーカー",
+            "type": [3],"circle": null,"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": 330,"specialty": 60,"exp": null,"gexp": 10
+        },
+        {
+            "name": "フリーター",
+            "type": null,"circle": null,"req": null,"mul": 1,"prob": 1,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 1
+        },
+        {
+            "name": "不動産会社",
+            "type": [4],"circle": null,"req": "or","mul": 0.8,"prob": 1,
+            "money": null,"sociability": 330,"specialty": 50,"exp": null,"gexp": 10
+        },
+        {
+            "name": "広告代理店",
+            "type": [0,1],"circle": null,"req": null,"mul": 0.95,"prob": 1,
+            "money": null,"sociability": 250,"specialty": null,"exp": null,"gexp": 10
+        },
+        {
+            "name": "テレビ局",
+            "type": [0,1],"circle": null,"req": null,"mul": 0.95,"prob": 1,
+            "money": null,"sociability": 330,"specialty": null,"exp": null,"gexp": 15
+        },
+        {
+            "name": "電力会社",
+            "type": [3,4],"circle": null,"req": "or","mul": 0.8,"prob": 1,
+            "money": null,"sociability": 330,"specialty": 60,"exp": null,"gexp": 10
+        },
+        {
+            "name": "インフラ会社",
+            "type": [3,4],"circle": null,"req": "or","mul": 0.8,"prob": 1,
+            "money": null,"sociability": 330,"specialty": 60,"exp": null,"gexp": 10
+        },
+        {
+            "name": "教育",
+            "type": [2],"circle": null,"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": 250,"specialty": null,"exp": null,"gexp": 10
+        },
+        {
+            "name": "福祉",
+            "type": null,"circle": null,"req": null,"mul": 1,"prob": 1,
+            "money": null,"sociability": 150,"specialty": null,"exp": null,"gexp": 5
+        },
+        {
+            "name": "弁護士",
+            "type": null,"circle": [29],"req": "all","mul": 1,"prob": 0.1,
+            "money": null,"sociability": null,"specialty": 120,"exp": null,"gexp": 40
+        },
+        {
+            "name": "公認会計士",
+            "type": null,"circle": [29],"req": "all","mul": 1,"prob": 0.2,
+            "money": null,"sociability": null,"specialty": 120,"exp": null,"gexp": 30
+        },
+        {
+            "name": "医療",
+            "type": [3],"circle": null,"req": null,"mul": 0.95,"prob": 1,
+            "money": null,"sociability": null,"specialty": 70,"exp": null,"gexp": 15
+        },
+        {
+            "name": "証券会社",
+            "type": "01","circle": null,"req": null,"mul": 0.95,"prob": 1,
+            "money": null,"sociability": 330,"specialty": null,"exp": null,"gexp": 15
+        },
+        {
+            "name": "機械メーカー",
+            "type": [3],"circle": [28],"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": null,"specialty": 60,"exp": null,"gexp": 15
+        },
+        {
+            "name": "ゲーム会社",
+            "type": [3],"circle": [27],"req": "or","mul": 0.8,"prob": 1,
+            "money": null,"sociability": 330,"specialty": 60,"exp": null,"gexp": 10
+        },
+        {
+            "name": "新聞社",
+            "type": [4],"circle": null,"req": null,"mul": 0.8,"prob": 1,
+            "money": null,"sociability": 300,"specialty": null,"exp": null,"gexp": 15
+        },
+        {
+            "name": "プロゲーマー",
+            "type": null,"circle": [20],"req": null,"mul": 1,"prob": 0.1,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 30
+        },
+        {
+            "name": "スポーツ選手",
+            "type": null,"circle": [1,2,3,4,5,30,31,32,33,34,35,36,37,38,39],"req": null,"mul": 1,"prob": 0.1,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 30
+        },
+        {
+            "name": "音楽家",
+            "type": null,"circle": [7,11,24,25],"req": null,"mul": 1,"prob": 0.1,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 30
+        },
+        {
+            "name": "芸術家",
+            "type": null,"circle": [9],"req": null,"mul": 1,"prob": 0.1,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 30
+        },
+        {
+            "name": "小説家",
+            "type": null,"circle": [10],"req": null,"mul": 1,"prob": 0.1,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 30
+        },
+        {
+            "name": "登山家",
+            "type": null,"circle": [13],"req": null,"mul": 1,"prob": 0.2,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 25
+        },
+        {
+            "name": "ダンサー",
+            "type": null,"circle": [6],"req": null,"mul": 1,"prob": 0.2,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 25
+        },
+        {
+            "name": "棋士",
+            "type": null,"circle": [18,19],"req": null,"mul": 1,"prob": 0.1,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 30
+        },
+        {
+            "name": "麻雀プロ",
+            "type": null,"circle": [15],"req": null,"mul": 1,"prob": 0.1,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 30
+        },
+        {
+            "name": "茶道家",
+            "type": null,"circle": [17],"req": null,"mul": 1,"prob": 0.2,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 25
+        },
+        {
+            "name": "写真家",
+            "type": null,"circle": [26],"req": null,"mul": 1,"prob": 0.2,
+            "money": null,"sociability": null,"specialty": null,"exp": null,"gexp": 25
+        },
+        {
+            "name": "冒険家",
+            "type": null,"circle": null,"req": null,"mul": 1,"prob": 1,
+            "money": 5000000,"sociability": null,"specialty": null,"exp": null,"gexp": 60
+        }
+    ]
+}

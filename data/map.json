@@ -1,0 +1,951 @@
+{
+    "grid": [
+    {
+        "type": "start",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "circle",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "ptjob",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "circle",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "spring",
+        "num": [0, 2],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "circle",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "ptjob",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "spring",
+        "num": [3, 5],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "circle",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "ptjob",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "circle",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "spring",
+        "num": [3, 5],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "fes1",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "summer",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "test",
+        "num": [0],
+        "map": "1",
+        "stop": true
+    },
+    {
+        "type": "summer",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "vacation1",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "vacation1",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": [0, 50],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": [0, 14],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [0],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "vacation1",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "result",
+        "num": null,
+        "map": "1",
+        "stop": true
+    },
+    {
+        "type": "fall",
+        "num": [0],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "circle",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "ptjob",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "fes2",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "fall",
+        "num": [1],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [0],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [1],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [2, 6],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "test",
+        "num": [0],
+        "map": "1",
+        "stop": true
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "test",
+        "num": [1],
+        "map": "1",
+        "stop": true
+    },
+    {
+        "type": "vacation2",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": [0, 14],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": [0, 14],
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "vacation2",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "vacation2",
+        "num": null,
+        "map": "1",
+        "stop": false
+    },
+    {
+        "type": "result",
+        "num": null,
+        "map": "1",
+        "stop": true
+    },
+    {
+        "type": "start",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "spring",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "ptjob",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "fes1",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "summer",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "test",
+        "num": [0],
+        "map": "2",
+        "stop": true
+    },
+    {
+        "type": "vacation1",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": [0, 50],
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "vacation1",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "summer",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "result",
+        "num": null,
+        "map": "2",
+        "stop": true
+    },
+    {
+        "type": "abroad",
+        "num": [0],
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "fes2",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "fall",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [0],
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [1],
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [2, 6],
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "test",
+        "num": [0],
+        "map": "2",
+        "stop": true
+    },
+    {
+        "type": "good",
+        "num": [0, 50],
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": [0, 14],
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "vacation2",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "vacation2",
+        "num": null,
+        "map": "2",
+        "stop": false
+    },
+    {
+        "type": "result",
+        "num": null,
+        "map": "2",
+        "stop": true
+    },
+    {
+        "type": "start",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "ptjob",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "spring",
+        "num": [0, 2],
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "fes1",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "spring",
+        "num": [3, 5],
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "summer",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "test",
+        "num": [0],
+        "map": "3",
+        "stop": true
+    },
+    {
+        "type": "abroad",
+        "num": [0],
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "vacation1",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "vacation1",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": [0, 50],
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "result",
+        "num": null,
+        "map": "3",
+        "stop": true
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "fes2",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "fall",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [1],
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [2, 6],
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [2, 6],
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "test",
+        "num": [0],
+        "map": "3",
+        "stop": true
+    },
+    {
+        "type": "vacation2",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": [0, 14],
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": [0, 50],
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "vacation2",
+        "num": null,
+        "map": "3",
+        "stop": false
+    },
+    {
+        "type": "result",
+        "num": null,
+        "map": "3",
+        "stop": true
+    },
+    {
+        "type": "start",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "spring",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "fes1",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "course",
+        "num": null,
+        "map": "4",
+        "stop": true
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "summer",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "summer",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "test",
+        "num": [0],
+        "map": "4",
+        "stop": true
+    },
+    {
+        "type": "vacation1",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": [0, 14],
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": [0, 50],
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "vacation1",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "result",
+        "num": null,
+        "map": "4",
+        "stop": true
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "fes2",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "bad",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "fall",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [0],
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [1],
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "winter",
+        "num": [2, 6],
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "test",
+        "num": [0],
+        "map": "4",
+        "stop": true
+    },
+    {
+        "type": "bad",
+        "num": [0, 14],
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "good",
+        "num": [0, 50],
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "vacation2",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "vacation2",
+        "num": null,
+        "map": "4",
+        "stop": false
+    },
+    {
+        "type": "result",
+        "num": null,
+        "map": "4",
+        "stop": true
+    },
+    {
+        "type": "goal",
+        "num": null,
+        "map": "4",
+        "stop": true
+    },
+    {
+        "type": "start",
+        "num": null,
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [4],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [8],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [1],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [10],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [5],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [9],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [2],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [6],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [3],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [11, 12],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [7],
+        "map": "5",
+        "stop": false
+    },
+    {
+        "type": "abroad",
+        "num": [13],
+        "map": "5",
+        "stop": true
+    }]
+}

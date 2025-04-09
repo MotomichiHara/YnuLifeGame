@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>結果 | 横国人生ゲーム</title>
+
+        <link href="style_result.css" rel="stylesheet">
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'obh3soa',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+          <script>
+            (function(d) {
+              var config = {
+                kitId: 'obh3soa',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+          <script>
+            (function(d) {
+              var config = {
+                kitId: 'xcq5prn',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+    </head>
+    
+    <body>
+      <div class="container">
+          <div class="rule">
+              <h1>結果</h1>
+              <img src="book.png" alt="" width="96" height="96" id="image" onclick="showVerticalTabs()">
+          </div>
+
+          <div class="result">
+            <div class="box" id="1">
+              <p class="rank">1位</p>
+              <p class="name" id="name1"></p>
+              <p class="score">経験値:<span id="score1"></span></p>
+            </div>
+            <div class="box" id="2">
+              <p class="rank">2位</p>
+              <p class="name" id="name2"></p>
+              <p class="score">経験値:<span id="score2"></span></p>
+            </div>
+            <div class="box" id="3">
+              <p class="rank">3位</p>
+              <p class="name" id="name3"></p>
+              <p class="score">経験値:<span id="score3"></span></p>
+            </div>
+            <div class="box" id="4">
+              <p class="rank">4位</p>
+              <p class="name" id="name4"></p>
+              <p class="score">経験値:<span id="score4"></span></p>
+            </div>
+            <div class="box" id="5">
+              <p class="rank">5位</p>
+              <p class="name" id="name5"></p>
+              <p class="score">経験値:<span id="score5"></span></p>
+            </div>
+          </div>
+
+
+          <div class="return">
+            <a href="/" class="btn">タイトルに戻る</a>
+          </div>
+
+          <div id="popup-overlay" class="popup-overlay">
+            <div class="popup-container">
+              <iframe src="ex.html" style="width: 100%; height: 100%; border: none;"></iframe>
+              <span class="popup-close" onclick="closePopup()">×</span>
+            </div>
+          </div>
+      </div>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="script_result.js"></script>
+  </body>
+</html>

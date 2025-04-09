@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    grid-template-rows: 1fr 1fr 8fr 3fr;
+    background-color: #005B94;
+    display: grid;
+    align-self: auto;
+}
+
+h1, a{
+    color: #ffffff;
+    font-family: ab-anzu-r, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 80px;
+    height: 30px;
+}
+
+p{
+    font-size: 40px;
+    color: #ffffff;
+    font-family: kozuka-gothic-pr6n, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    filter: brightness(90%) contrast(120%);
+}
+
+.rule{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 10px;
+    padding: 0;
+    line-height: 0%;
+}
+
+.rule > img{
+    background-color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 80px;
+}
+
+.rank{
+    width: 100px;
+}
+
+.name{
+    width: 250px;
+}
+
+.score{
+    width: 350px;
+}
+
+.return{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    width: 450px;
+    height: 80px;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+.btn a {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+  
+.popup-container {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px;
+    width: 80vw;
+	max-width: 1200px;
+    height: 546px;
+	max-height: 100%;
+    overflow-y: auto;
+    display: flex;
+    border-radius: 10px;
+}
+
+.popup-close {
+    position: fixed;
+    top: 0px;
+    right: 21px;
+    cursor: pointer;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,34 @@
+{
+    "room":[
+        {
+            "key": null,
+            "player": [
+                {
+                    "name": null,
+                    "major": null,
+                    "lifestyle": null,
+                    "circle": [0],
+                    "ptjob": [0],
+                    "course": null,
+                    "money": 0,
+                    "sociability": 0,
+                    "energy": 0,
+                    "specialty": 0,
+                    "credit": 0,
+                    "exp": 0,
+                    "excredit": 0,
+                    "maxcredit": 24,
+                    "nowcredit": 0,
+                    "studentID": null,
+                    "icon": null,
+                    "map": "1",
+                    "grid": 0,
+                    "turn": null,
+                    "myturn": false,
+                    "exmap": null,
+                    "exgrid": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+﻿{
+    "circle":[
+    {
+        "circle": "無所属",
+        "money": 0,"sociability": 0,"energy": 0,"specialty": 0,"exp": 0
+    },
+     {
+        "circle": "テニスサークル",
+        "money": -7500,"sociability": 3,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "バドミントンサークル",
+        "money": -7500,"sociability": 3,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "バスケサークル",
+        "money": -7500,"sociability": 3,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "サッカーサークル",
+        "money": -7500,"sociability": 3,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "キャップ野球サークル",
+        "money": -7500,"sociability": 3,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "ダンスサークル",
+        "money": -2500,"sociability": 2,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "アカペラサークル",
+        "money": -2500,"sociability": 2,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "お笑いサークル",
+        "money": -2500,"sociability": 2,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "美術サークル",
+        "money": -2500,"sociability": 2,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "文芸サークル",
+        "money": -2500,"sociability": 2,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "軽音学部",
+        "money": -2500,"sociability": 2,"energy": -12,"specialty": 0,"exp": 3
+    },
+     {
+        "circle": "ディズニーサークル",
+        "money": -7500,"sociability": 2,"energy": -4,"specialty": 0,"exp": 2
+    },
+     {
+        "circle": "山岳部",
+        "money": -7500,"sociability": 2,"energy": -4,"specialty": 0,"exp": 2
+    },
+     {
+        "circle": "学祭実行委員会",
+        "money": -7500,"sociability": 2,"energy": -4,"specialty": 0,"exp": 2
+    },
+     {
+        "circle": "麻雀サークル",
+        "money": -2500,"sociability": 1,"energy": -4,"specialty": 0,"exp": 1
+    },
+     {
+        "circle": "ボードゲームサークル",
+        "money": -2500,"sociability": 1,"energy": -4,"specialty": 0,"exp": 1
+    },
+     {
+        "circle": "茶道研究会",
+        "money": -2500,"sociability": 1,"energy": -4,"specialty": 0,"exp": 1
+    },
+     {
+        "circle": "囲碁部",
+        "money": -2500,"sociability": 1,"energy": -4,"specialty": 0,"exp": 1
+    },
+     {
+        "circle": "将棋部",
+        "money": -2500,"sociability": 1,"energy": -4,"specialty": 0,"exp": 1
+    },
+     {
+        "circle": "ゲームサークル",
+        "money": -2500,"sociability": 1,"energy": -4,"specialty": 0,"exp": 1
+    },
+     {
+        "circle": "クイズサークル",
+        "money": -2500,"sociability": 1,"energy": -4,"specialty": 0,"exp": 1
+    },
+     {
+        "circle": "猫サークル",
+        "money": -2500,"sociability": 1,"energy": -4,"specialty": 0,"exp": 1
+    },
+     {
+        "circle": "自動車サークル",
+        "money": -12500,"sociability": 2,"energy": -12,"specialty": 1,"exp": 4
+    },
+     {
+        "circle": "吹奏楽団",
+        "money": -12500,"sociability": 2,"energy": -12,"specialty": 1,"exp": 4
+    },
+     {
+        "circle": "管弦楽団",
+        "money": -12500,"sociability": 2,"energy": -12,"specialty": 1,"exp": 4
+    },
+     {
+        "circle": "写真サークル",
+        "money": -12500,"sociability": 2,"energy": -12,"specialty": 1,"exp": 4
+    },
+     {
+        "circle": "プログラミングサークル",
+        "money": -5000,"sociability": 3,"energy": -4,"specialty": 3,"exp": 3
+    },
+     {
+        "circle": "ロボットサークル",
+        "money": -5000,"sociability": 3,"energy": -4,"specialty": 3,"exp": 3
+    },
+     {
+        "circle": "資格サークル",
+        "money": -5000,"sociability": 3,"energy": -4,"specialty": 3,"exp": 3
+    },
+     {
+        "circle": "サッカー部",
+        "money": -10000,"sociability": 5,"energy": -16,"specialty": 0,"exp": 4
+    },
+     {
+        "circle": "野球部",
+        "money": -10000,"sociability": 5,"energy": -16,"specialty": 0,"exp": 4
+    },
+     {
+        "circle": "バスケ部",
+        "money": -10000,"sociability": 5,"energy": -16,"specialty": 0,"exp": 4
+    },
+     {
+        "circle": "バドミントン部",
+        "money": -10000,"sociability": 5,"energy": -16,"specialty": 0,"exp": 4
+    },
+     {
+        "circle": "剣道部",
+        "money": -10000,"sociability": 5,"energy": -16,"specialty": 0,"exp": 4
+    },
+    {
+        "circle": "アメフト部",
+        "money": -10000,"sociability": 5,"energy": -16,"specialty": 0,"exp": 4
+    },
+     {
+        "circle": "ラクロス部",
+        "money": -10000,"sociability": 5,"energy": -16,"specialty": 0,"exp": 4
+    },
+     {
+        "circle": "ウィンドサーフィン部",
+        "money": -12500,"sociability": 5,"energy": -16,"specialty": 0,"exp": 5
+    },
+     {
+        "circle": "スキー部",
+        "money": -12500,"sociability": 5,"energy": -16,"specialty": 0,"exp": 5
+    },
+     {
+        "circle": "アイスホッケー部",
+        "money": -12500,"sociability": 5,"energy": -16,"specialty": 0,"exp": 5
+    }]
+}

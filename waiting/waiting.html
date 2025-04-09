@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang ="ja">
+<head>
+    <meta charset="UTF-8">
+
+    <title>待機中 | 横国人生ゲーム</title>
+
+    <link href="style.css" rel="stylesheet">
+
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'obh3soa',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+     <script>
+        (function(d) {
+          var config = {
+            kitId: 'obh3soa',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+      <script>
+        (function(d) {
+          var config = {
+            kitId: 'xcq5prn',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+</head>
+
+<body>
+    <div class="container">
+      <div class="rule">
+        <img src="../images/book.png" alt="" width="96" height="96" id="image" onclick="showVerticalTabs()">
+      </div>
+      <div class="title">
+        <img src="../images/king.png" alt="" width="50" height="50">
+      </div>
+      <h1 id="first"></h1>
+      <h3 id="second"></h3>
+      <h4 id="third"></h4>
+      <h5 id="fourth"></h5>
+      <h6 id="fifth"></h6>
+      <script src="script.js"></script>
+      <div class="name">
+        <h2>待機中</h2>
+      </div>
+      <div class="entry">
+        <a href="../setting/setting.html" class="btn">準備を始める</a>
+      </div>
+
+      <div id="popup-overlay" class="popup-overlay">
+        <div class="popup-container">
+          <iframe src="../explanation/ex.html" style="width: 100%; height: 100%; border: none;"></iframe>
+          <span class="popup-close" onclick="closePopup()">×</span>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

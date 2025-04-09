@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>横国人生ゲーム</title>
+  <meta name="description" content="横浜国立大学をモチーフにした人生ゲームです。">
+  <link href="style.css" rel="stylesheet">
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'obh3soa',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+</head>
+    
+<body>
+  <div class="container">
+    <div class="rule">
+      <img src="images/book.png" alt="" width="96" height="96" id="image" onclick="showVerticalTabs()">
+    </div>
+    <div class="title">
+      <img src="images/kamome.png" alt="" width="200" height="190">
+      <h1>横国人生ゲーム</h1>
+    </div>
+    <div class="name">
+      <h2>学生の名前</h2>
+      <form>
+        <input type="text" class="playerName">
+      </form>
+    </div>
+    <div class="entry">
+      <a href="matching/matching.html" class="btn" onclick="return addToSessionStorage()">入学する</a>
+    </div>
+  </div>
+  <div id="popup-overlay" class="popup-overlay">
+    <div class="popup-container">
+      <iframe src="./explanation/ex.html" style="width: 100%; height: 100%; border: none;"></iframe>
+      <span class="popup-close" onclick="closePopup()">x</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>初期設定 | 横国人生ゲーム</title>
+
+        <link href="style.css" rel="stylesheet">
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'obh3soa',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+          <script>
+            (function(d) {
+              var config = {
+                kitId: 'obh3soa',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="rule">
+                <h1>初期設定</h1>
+                <img src="../images/book.png" alt="" width="96" height="96" id="image" onclick="showVerticalTabs()">
+            </div>
+
+
+            <div class="msg">
+                <p>学部、生活スタイル、コマを選んでください</p>
+            </div>
+
+            <div class="form">
+                <div class="major">
+                  <p>学部</p>
+                  <form id="major">
+                      <label><input type="radio" name="major" value="0" checked>経済学部</label>
+                      <label><input type="radio" name="major" value="1">経営学部</label>
+                      <label><input type="radio" name="major" value="2">教育学部</label>
+                      <label><input type="radio" name="major" value="3">理工学部</label>
+                      <label><input type="radio" name="major" value="4">都市科学部</label>
+                  </form>
+                </div>
+    
+                <div class="lifestyle">
+                  <p>生活スタイル</p>
+                  <form id="lifestyle">
+                    <label><input type="radio" name="lifestyle" value="0" checked>一人ぐらし</label>
+                    <label><input type="radio" name="lifestyle" value="1">実家ぐらし</label>
+                  </form>
+                </div>
+
+                <div class="icon">
+                  <p>コマ</p>
+                  <form id="icon">
+                    <label>
+                      <input type="radio" name="icon" value="1" checked>
+                      <img src="../images/icon1.png">
+                    </label>
+                    <label>
+                      <input type="radio" name="icon" value="2" >
+                      <img src="../images/icon2.png">
+                    </label>
+                    <label>
+                      <input type="radio" name="icon" value="3" >
+                      <img src="../images/icon3.png">
+                    </label>
+                    <label>
+                      <input type="radio" name="icon" value="4" >
+                      <img src="../images/icon4.png">
+                    </label>
+                    <label>
+                      <input type="radio" name="icon" value="5" >
+                      <img src="../images/icon5.png">
+                    </label>
+                    <label>
+                      <input type="radio" name="icon" value="6" >
+                      <img src="../images/icon6.png">
+                    </label>
+                  </form>
+                </div>
+            </div>
+            <div class="start">
+              <a href="../game/game.html" class="btn" onclick="addToSessionStorage()">大学生活スタート</a>
+            </div>
+
+            <div id="popup-overlay" class="popup-overlay">
+              <div class="popup-container">
+                <iframe src="../explanation/ex.html" style="width: 100%; height: 100%; border: none;"></iframe>
+                <span class="popup-close" onclick="closePopup()">×</span>
+              </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

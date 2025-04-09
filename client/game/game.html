@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>ゲーム | 横国人生ゲーム</title>
+
+        <link href="style_game.css" rel="stylesheet">
+        <link href="map1.css" rel="stylesheet">
+        <link href="map2.css" rel="stylesheet">
+        <link href="map3.css" rel="stylesheet">
+        <link href="map4.css" rel="stylesheet">
+        <link href="map5.css" rel="stylesheet">
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'obh3soa',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+          <script>
+            (function(d) {
+              var config = {
+                kitId: 'obh3soa',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+          <script>
+            (function(d) {
+              var config = {
+                kitId: 'xcq5prn',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+          </script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="panel">
+                <div class="card">
+                    <div class="ynu">
+                        <p><span>Y</span>NU</p>
+                    </div>
+                    <div class="univname">
+                        <ul>
+                            <li id="ja">横浜国立大学</li>
+                            <li id="en">YOKOHAMA NATIONAL UNIVERSITY</li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <img id="icon">
+                    </div>
+                    <div class="statuslist">
+                        <div class="status">
+                            <p class="subject">学籍番号</p>
+                            <p id="studentID"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">所属</p>
+                            <p id="major"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">氏名</p>
+                            <p id="name"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">所持金</p>
+                            <p id="money"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">サークル1</p>
+                            <p id="circle-0"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">サークル2</p>
+                            <p id="circle-1"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">サークル3</p>
+                            <p id="circle-2"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">バイト1</p>
+                            <p id ="ptjob-0"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">バイト2</p>
+                            <p id ="ptjob-1"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">バイト3</p>
+                            <p id ="ptjob-2"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">単位</p>
+                            <p id="credit"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">行動力</p>
+                            <p id="energy"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">社交性</p>
+                            <p id="sociability"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">専門性</p>
+                            <p id="specialty"></p>
+                        </div>
+                        <div class="status">
+                            <p class="subject">経験値</p>
+                            <p id="exp"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mapchange">
+                    <a href="#" class="btn" id="btn1">１年</a>
+                    <a href="#" class="btn" id="btn2">２年</a>
+                    <a href="#" class="btn" id="btn3">３年</a>
+                    <a href="#" class="btn" id="btn4">４年</a>
+                    <a href="#" class="btn" id="btn5">留学</a>
+                </div>
+                <div class="statusbox">
+                    <p class="title">ステータス変化</p>
+                    <p id="statuschange"></p>
+                </div>
+                <div class="msgbox">
+                    <p class="title">ダイアログ</p>
+                    <p class="msg" id="msg"></p>
+                </div>
+            </div>
+
+            <div class="main">
+                <div id="map1">
+                    <div class="map1">
+                        <div class="grid 4" id="event1-4"></div><div class="grid path_h"></div><div class="grid 5" id="event1-5"></div><div class="grid 26" id="event1-26"></div><div class="grid path_h"></div><div class="grid 27" id="event1-27"></div><div class="grid 33" id="event1-33"></div><div class="grid path_h"></div><div class="grid 34" id="event1-34"></div><div class="grid"></div><div class="grid 41" id="event1-41"></div><div class="grid path_h"></div><div class="grid 42" id="event1-42-1"></div><div class="grid" id="event1-42-2"></div><div class="grid path_h"></div><div class="grid 43" id="event1-43"></div><div class="grid"></div>
+                        <div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div>
+                        <div class="grid 3" id="event1-3"></div><div class="grid"></div><div class="grid 6" id="event1-6"></div><div class="grid 25" id="event1-25"></div><div class="grid"></div><div class="grid 28" id="event1-28"></div><div class="grid 32" id="event1-32"></div><div class="grid"></div><div class="grid 35" id="event1-35"></div><div class="grid"></div><div class="grid 40" id="event1-40"></div><div class="grid"></div><div class="grid 45" id="event1-45"></div><div class="grid path_h"></div><div class="grid 44" id="event1-44-1"></div><div class="grid" id="event1-44-2"></div><div class="grid"></div>
+                        <div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid 2" id="event1-2"></div><div class="grid"></div><div class="grid 7" id="event1-7"></div><div class="grid 24" id="event1-24"></div><div class="grid"></div><div class="grid 29" id="event1-29"></div><div class="grid 31" id="event1-31"></div><div class="grid"></div><div class="grid 36" id="event1-36"></div><div class="grid"></div><div class="grid 39" id="event1-39"></div><div class="grid"></div><div class="grid 46" id="event1-46"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid 1" id="event1-1"></div><div class="grid"></div><div class="grid 8" id="event1-8"></div><div class="grid 23" id="event1-23"></div><div class="grid"></div><div class="grid 30" id="event1-30-1"></div><div class="grid" id="event1-30-2"></div><div class="grid"></div><div class="grid 37" id="event1-37"></div><div class="grid path_h"></div><div class="grid 38" id="event1-38"></div><div class="grid"></div><div class="grid 47" id="event1-47"></div><div class="grid path_h"></div><div class="grid 48" id="event1-48"></div><div class="grid path_h"></div><div class="grid 49" id="event1-49"></div>
+                        <div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid path_v"></div><div class="grid"></div><div class="grid 9" id="event1-9"></div><div class="grid 22" id="event1-22-1"></div><div class="grid" id="event1-22-2"></div><div class="grid path_h"></div><div class="grid 21" id="event1-21"></div><div class="grid path_h"></div><div class="grid 20" id="event1-20"></div><div class="grid path_h"></div><div class="grid 19" id="event1-19"></div><div class="grid path_h"></div><div class="grid 18" id="event1-18"></div><div class="grid path_h"></div><div class="grid 17" id="event1-17"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid 0" id="event1-0-1"></div><div class="grid" id="event1-0-2"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid" id="event1-0-3"></div><div class="grid" id="event1-0-4"></div><div class="grid 10" id="event1-10"></div><div class="grid path_h"></div><div class="grid 11" id="event1-11"></div><div class="grid path_h"></div><div class="grid 12" id="event1-12"></div><div class="grid path_h"></div><div class="grid 13" id="event1-13"></div><div class="grid path_h"></div><div class="grid 14" id="event1-14"></div><div class="grid path_h"></div><div class="grid 15" id="event1-15"></div><div class="grid path_h"></div><div class="grid 16" id="event1-16"></div><div class="grid 50" id="event1-50-1"></div><div class="grid" id="event1-50-2"></div>
+                    </div>
+                </div>
+                <div id="map2">
+                    <div class="map2">
+                        <div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 61" id="event2-10-1"></div><div class="grid" id="event2-10-2"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid 62" id="event2-11"></div><div class="grid path_h"></div><div class="grid 63" id="event2-12"></div><div class="grid"></div><div class="grid 69" id="event2-18"></div><div class="grid path_h"></div><div class="grid 70" id="event2-19"></div><div class="grid path_h"></div><div class="grid 71" id="event2-20"></div><div class="grid path_h"></div><div class="grid 72" id="event2-21"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 60" id="event2-9"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 65" id="event2-14"></div><div class="grid path_h"></div><div class="grid 64" id="event2-13"></div><div class="grid"></div><div class="grid 68" id="event2-17"></div><div class="grid"></div><div class="grid 75" id="event2-24"></div><div class="grid path_h"></div><div class="grid 74" id="event2-23"></div><div class="grid path_h"></div><div class="grid 73" id="event2-22"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 59" id="event2-8"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 66" id="event2-15-1"></div><div class="grid" id="event2-15-2"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid 67" id="event2-16"></div><div class="grid"></div><div class="grid 76" id="event2-25-1"></div><div class="grid" id="event2-25-2"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid 77" id="event2-26"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 58" id="event2-7"></div><div class="grid path_h"></div><div class="grid 57" id="event2-6"></div><div class="grid path_h"></div><div class="grid 56" id="event2-5"></div><div class="grid path_h"></div><div class="grid 55" id="event2-4"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 79" id="event2-28"></div><div class="grid path_h"></div><div class="grid 78" id="event2-27"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid 51" id="event2-0-1"></div><div class="grid" id="event2-0-2"></div><div class="grid path_h"></div><div class="grid 52" id="event2-1"></div><div class="grid path_h"></div><div class="grid 53" id="event2-2"></div><div class="grid path_h"></div><div class="grid 54" id="event2-3"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 80" id="event2-29"></div><div class="grid path_h"></div><div class="grid 81" id="event2-30-1"></div><div class="grid" id="event2-30-2"></div>
+                    </div>                  
+                </div>
+                <div id="map3">
+                    <div class="map3">
+                        <div class="grid"></div><div class="grid 89" id="event3-7"></div><div class="grid path_h"></div><div class="grid 90" id="event3-8"></div><div class="grid path_h"></div><div class="grid 91" id="event3-9"></div><div class="grid path_h"></div><div class="grid 92" id="event3-10-1"></div><div class="grid" id="event3-10-2"></div><div class="grid path_h"></div><div class="grid 93" id="event3-11"></div><div class="grid path_h"></div><div class="grid 94" id="event3-12"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 88" id="event3-6"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 97" id="event3-15-1"></div><div class="grid" id="event3-15-2"></div><div class="grid path_h"></div><div class="grid 96" id="event3-14"></div><div class="grid path_h"></div><div class="grid 95" id="event3-13"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 87" id="event3-5"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 99" id="event3-17"></div><div class="grid path_h"></div><div class="grid 98" id="event3-16"></div><div class="grid"></div><div class="grid 107" id="event3-25-1"></div><div class="grid" id="event3-25-2"></div><div class="grid path_h"></div><div class="grid 108" id="event3-26"></div><div class="grid path_h"></div><div class="grid 109" id="event3-27"></div><div class="grid path_h"></div><div class="grid 110" id="event3-28"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid"></div><div class="grid 86" id="event3-4"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 100" id="event3-18"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 106" id="event3-24"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 111" id="event3-29"></div>
+                        <div class="grid"></div><div class="grid 85" id="event3-3"></div><div class="grid path_h"></div><div class="grid 84" id="event3-2"></div><div class="grid"></div><div class="grid 101" id="event3-19"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 105" id="event3-23"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid 82" id="event3-0-1"></div><div class="grid" id="event3-0-2"></div><div class="grid path_h"></div><div class="grid 83" id="event3-1"></div><div class="grid"></div><div class="grid 102" id="event3-20"></div><div class="grid path_h"></div><div class="grid 103" id="event3-21"></div><div class="grid path_h"></div><div class="grid 104" id="event3-22"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 112" id="event3-30-1"></div><div class="grid" id="event3-30-2"></div>
+                    </div>
+                </div>
+                <div id="map4">
+                    <div class="map4">
+                        <div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 136" id="event4-23"></div><div class="grid path_h"></div><div class="grid 137" id="event4-24"></div><div class="grid path_h"></div><div class="grid 138" id="event4-25-1"></div><div class="grid" id="event4-25-2"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 121" id="event4-8"></div><div class="grid path_h"></div><div class="grid 122" id="event4-9"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 135" id="event4-22"></div><div class="grid path_h"></div><div class="grid 134" id="event4-21"></div><div class="grid"></div><div class="grid"></div><div class="grid 139" id="event4-26"></div><div class="grid path_h"></div><div class="grid 140" id="event4-27"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 120" id="event4-7"></div><div class="grid"></div><div class="grid 123" id="event4-10-1"></div><div class="grid" id="event4-10-2"></div><div class="grid path_h"></div><div class="grid 124" id="event4-11"></div><div class="grid"></div><div class="grid"></div><div class="grid 133" id="event4-20"></div><div class="grid path_h"></div><div class="grid 132" id="event4-19"></div><div class="grid"></div><div class="grid"></div><div class="grid 141" id="event4-28"></div><div class="grid path_h"></div><div class="grid 142" id="event4-29"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid"></div><div class="grid 119" id="event4-6"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 125" id="event4-12"></div><div class="grid path_h"></div><div class="grid 126" id="event4-13"></div><div class="grid"></div><div class="grid"></div><div class="grid 131" id="event4-18"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 143" id="event4-30-1"></div><div class="grid" id="event4-30-2"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid"></div><div class="grid 118" id="event4-5"></div><div class="grid path_h"></div><div class="grid 117" id="event4-4"></div><div class="grid path_h"></div><div class="grid 116" id="event4-3"></div><div class="grid"></div><div class="grid"></div><div class="grid 127" id="event4-14"></div><div class="grid"></div><div class="grid"></div><div class="grid 130" id="event4-17"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div>
+                        <div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 144" id="event4-31-1"></div><div class="grid" id="event4-31-2"></div>
+                        <div class="grid 113" id="event4-0-1"></div><div class="grid" id="event4-0-2"></div><div class="grid path_h"></div><div class="grid 114" id="event4-1"></div><div class="grid path_h"></div><div class="grid 115" id="event4-2"></div><div class="grid"></div><div class="grid"></div><div class="grid 128" id="event4-15-1"></div><div class="grid" id="event4-15-2"></div><div class="grid path_h"></div><div class="grid 129" id="event4-16"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid" id="event4-31-3"></div><div class="grid" id="event4-31-4"></div>
+                    </div>
+                </div>
+                <div id="map5">
+                    <div class="map5">
+                        <div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 150" id="event5-5"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid 151" id="event5-6"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid 152" id="event5-7"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 149" id="event5-4"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 153" id="event5-8"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid 148" id="event5-3"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid 147" id="event5-2"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 155" id="event5-10"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid 154" id="event5-9"></div><div class="grid"></div>
+                        <div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid path_v"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div>
+                        <div class="grid 145" id="event5-0-1"></div><div class="grid" id="event5-0-2"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid 146" id="event5-1"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid"></div><div class="grid 156" id="event5-11"></div><div class="grid path_h"></div><div class="grid path_h"></div><div class="grid 157" id="event5-12-1"></div><div class="grid" id="event5-12-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rule">
+                <img src="book.png" alt="" width="96" height="96" id="image" onclick="showVerticalTabs()">
+            </div>
+            <div id="popup-overlay" class="popup-overlay">
+                <div class="popup-container">
+                    <iframe src="ex.html" style="width: 100%; height: 100%; border: none;"></iframe>
+                    <span class="popup-close" onclick="closePopup()">×</span>
+                </div>
+            </div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="script_game.js"></script>
+        <script>
+            // ページが読み込まれた時にセッションストレージのデータを表示する
+            window.addEventListener('DOMContentLoaded', displaySessionData());
+        </script>
+    </body>
+</html>

@@ -1,0 +1,284 @@
+﻿{
+    "ptjob": [
+        {
+            "ptjob": "なし",
+            "money": 0,
+            "sociability": 0,
+            "energy": -0,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "ptjob": "塾講師",
+            "money": 40000,
+            "sociability": 2,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "ptjob": "アパレル",
+            "money": 20000,
+            "sociability": 2,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 1,
+            "note": null
+        },
+        {
+            "ptjob": "イベントスタッフ",
+            "money": 20000,
+            "sociability": 3,
+            "energy": -10,
+            "specialty": 0,
+            "exp": 1,
+            "note": null
+        },
+        {
+            "ptjob": "居酒屋",
+            "money": 40000,
+            "sociability": 2,
+            "energy": -10,
+            "specialty": 0,
+            "exp": 1,
+            "note": null
+        },
+        {
+            "ptjob": "コンビニ",
+            "money": 40000,
+            "sociability": 2,
+            "energy": -10,
+            "specialty": 0,
+            "exp": 1,
+            "note": null
+        },
+        {
+            "ptjob": "デリバリー",
+            "money": 40000,
+            "sociability": 1,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 1,
+            "note": null
+        },
+        {
+            "ptjob": "採点",
+            "money": 40000,
+            "sociability": 0,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "ptjob": "ライター",
+            "money": 20000,
+            "sociability": 0,
+            "energy": -10,
+            "specialty": 1,
+            "exp": 1,
+            "note": null
+        },
+        {
+            "ptjob": "コールセンター",
+            "money": 20000,
+            "sociability": 2,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "ptjob": "カラオケ",
+            "money": 40000,
+            "sociability": 2,
+            "energy": -10,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "ptjob": "学童",
+            "money": 20000,
+            "sociability": 2,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "ptjob": "カフェ",
+            "money": 20000,
+            "sociability": 2,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "ptjob": "工場",
+            "money": 20000,
+            "sociability": 0,
+            "energy": -10,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "ptjob": "動画編集",
+            "money": 20000,
+            "sociability": 0,
+            "energy": -10,
+            "specialty": 1,
+            "exp": 1,
+            "note": null
+        },
+        {
+            "ptjob": "ブライダル",
+            "money": 40000,
+            "sociability": 3,
+            "energy": -20,
+            "specialty": 0,
+            "exp": 1,
+            "note": null
+        }
+    ],
+
+    "tempjob": [
+        {
+            "tempjob": "試験監督",
+            "money": 50000,
+            "sociability": 0,
+            "energy": -10,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "tempjob": "治験",
+            "money": 300000,
+            "sociability": 0,
+            "energy": -100,
+            "specialty": 0,
+            "exp": 5,
+            "note": "break"
+        },
+        {
+            "tempjob": "データ入力",
+            "money": 30000,
+            "sociability": 0,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "tempjob": "プール監視員",
+            "money": 30000,
+            "sociability": 0,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "tempjob": "リゾートバイト",
+            "money": 50000,
+            "sociability": 20,
+            "energy": -30,
+            "specialty": 0,
+            "exp": 5,
+            "note": null
+        },
+        {
+            "tempjob": "海の家",
+            "money": 50000,
+            "sociability": 10,
+            "energy": -15,
+            "specialty": 0,
+            "exp": 5,
+            "note": null
+        },
+        {
+            "tempjob": "交通量調査",
+            "money": 30000,
+            "sociability": 0,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "tempjob": "アンケートモニター",
+            "money": 30000,
+            "sociability": 0,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "tempjob": "エキストラ",
+            "money": 50000,
+            "sociability": 5,
+            "energy": -10,
+            "specialty": 0,
+            "exp": 5,
+            "note": null
+        },
+        {
+            "tempjob": "デバッガ―",
+            "money": 30000,
+            "sociability": 0,
+            "energy": -5,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "tempjob": "引っ越し",
+            "money": 100000,
+            "sociability": 0,
+            "energy": -20,
+            "specialty": 0,
+            "exp": 0,
+            "note": null
+        },
+        {
+            "tempjob": "夏期講習",
+            "money": 100000,
+            "sociability": 5,
+            "energy": -20,
+            "specialty": 0,
+            "exp": 0,
+            "note": "tutor"
+        }
+    ],
+
+    "internship": [
+        {
+            "internship": "有償インターン",
+            "money": 50000,
+            "sociability": 2,
+            "energy": -50,
+            "specialty": 5,
+            "exp": 5,
+            "note": null,
+            "turn": 3,
+            "prob": 0.4
+        },
+        {
+            "internship": "無償インターン",
+            "money": 0,
+            "sociability": 10,
+            "energy": -20,
+            "specialty": 5,
+            "exp": 10,
+            "note": null,
+            "turn": 1,
+            "prob": 1
+        }
+    ]
+}

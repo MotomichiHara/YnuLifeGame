@@ -1,0 +1,13 @@
+﻿{"major":[
+    {"name":"経済学部","money":200000,"sociability":10,"energy":100,"specialty":0,"credit":0,"exp":0, "getSpec": 1},
+    {"name":"経営学部","money":200000,"sociability":10,"energy":100,"specialty":0,"credit":0,"exp":0, "getSpec": 1},
+    {"name":"教育学部","money":200000,"sociability":10,"energy":80,"specialty":10,"credit":0,"exp":0, "getSpec": 1},
+    {"name":"理工学部","money":200000,"sociability":10,"energy":60,"specialty":20,"credit":0,"exp":0, "getSpec": 2},
+    {"name":"都市科学部","money":200000,"sociability":10,"energy":60,"specialty":20,"credit":0,"exp":0, "getSpec": 2}
+    ],
+ "lifestyle":[
+    {"name":"一人暮らし","money":-15000,"sociability":0,"energy":5,"specialty":0,"credit":0,"exp":1},
+    {"name":"実家暮らし","money":20000,"sociability":0,"energy":0,"specialty":0,"credit":0,"exp":0}
+    ],
+ "energy_recovery":10
+}
